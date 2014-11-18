@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
-
-
+# added by Paula, to pull in simple style/UX assets
+gem 'starter_generators'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
 # Use sqlite3 as the database for Active Record
