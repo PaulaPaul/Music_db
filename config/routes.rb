@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'main/index'
+
+  get 'main/about'
+
   # always create custom routes above the resources
   root to: "artists#index"
 
